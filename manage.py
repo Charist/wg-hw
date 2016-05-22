@@ -44,6 +44,7 @@ def test(coverage=False):
         COV.html_report(directory=covdir)
         COV.erase()
 
+
 @manager.command
 def pylint():
     'pylint'
