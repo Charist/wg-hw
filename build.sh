@@ -13,4 +13,4 @@ pip install -r requirements.txt
 
 ./manage.py db upgrade
 ./manage.py pylint
-./manage.py test
+./manage.py test --coverage
