@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sudo easy_install virtualenv
+sudo easy_install virtualenv
 
 if [ ! -d venv ]; then
     virtualenv -p $(which python3.4) venv
